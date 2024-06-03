@@ -1,2 +1,2 @@
 # Tic Tac Toe
-A CLI based simple Tic Tac Toe game in C++
+This repository conatins the code of my first tTic Tac Toe game which I created using C++
