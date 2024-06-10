@@ -72,11 +72,6 @@ void player1_turn(char arr[3][3])
     {
         cout << "Enter your move player 1: ";
         cin >> entry;
-        if (int(entry) < 0 || int(entry) > 9)
-        {
-            cout << "Invalid input" << endl;
-            exit(0);
-        }
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
@@ -99,11 +94,6 @@ void player2_turn(char arr[3][3])
     {
         cout << "Enter your move player 2: ";
         cin >> entry;
-        if (int(entry) < 0 || int(entry) > 9)
-        {
-            cout << "Invalid input" << endl;
-            exit(0);
-        }
         for (int i = 0; i < 3; i++)
         {
             for (int j = 0; j < 3; j++)
